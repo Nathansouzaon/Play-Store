@@ -1,0 +1,21 @@
+.card__container{
+	position: relative;/*quero que os elementos fiquem na frente dele o posicionamento dele e relativo aos conteudos que vão estar dentro dele*/
+	border: 3px solid #3E4357;
+	border-radius: 10px;
+	width: 350px;
+	height: 500px;
+
+	display: flex;
+	overflow: hidden;  /*todo conteudo que execeder nosso container fique escondido todo conteudo que sair do tamanho da nossa caixa*/
+	margin-top: 10px;
+}
+
+.card__img{
+	min-width: 100%;
+	min-height: 100%;
+	transition: transform .8s;/**criei o transform */
+}
+
+.card__img:hover{
+	transform: scale(1.1);/*chamei o transform*/
+}

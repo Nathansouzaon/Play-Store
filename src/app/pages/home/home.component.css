@@ -1,0 +1,11 @@
+.home__container
+{
+	width: 90%;
+	margin: auto;
+	padding-top: 50px;
+	display: flex;
+
+	justify-content: space-around;
+	align-items: baseline;
+	flex-wrap: wrap;/*toda vez que add um card e execeder o limite e jogado pra baixo*/
+}
